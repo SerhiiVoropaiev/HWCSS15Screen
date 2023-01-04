@@ -1,6 +1,6 @@
 @import "common.css";
 
-/*navigation-start*/
+/*Navigation-start*/
 
 .logo {
     width: 155px;
@@ -30,9 +30,9 @@
     text-transform: uppercase;
 }
 
-/*navigation-end*/
+/*Navigation-end*/
 
-/*blockImage-start*/
+/*BlockImage-start*/
 .bgImage {
     position: relative;
     padding: 105px 0 101px;
@@ -73,9 +73,9 @@
     background: center / cover url("../images/closeIcon.svg") no-repeat;
 }
 
-/*blockImage-end*/
+/*BlockImage-end*/
 
-/*secondContentBlock-start*/
+/*SecondContentBlock-start*/
 .secondContentBlock {
     background: #FEFEC9;
     padding: 60px 0 59px;
@@ -94,9 +94,9 @@
 
 }
 
-/*secondContentBlock-end*/
+/*SecondContentBlock-end*/
 
-/*thirdContentBlock-start*/
+/*ThirdContentBlock-start*/
 
 .thirdContentBlock {
     padding: 79px 0 74px;
@@ -136,7 +136,7 @@
     color: #333333;
 }
 
-/*thirdContentBlock-start*/
+/*ThirdContentBlock-start*/
 
 /*FourthContentBlock-start*/
 .fourthContentBlock {
@@ -152,7 +152,14 @@
     background: center / cover url("../images/v2card1.png") no-repeat;
     height: 300px;
     margin-bottom: 19px;
+    /*transition: all .2s ease-in-out;*/
 }
+
+/*.cardsGroupCardImg.v2card1:hover {*/
+/*    background-size: 120%;*/
+
+/*}*/
+
 
 .cardsGroupCardImg.v2card2 {
     background: center / cover url("../images/v2card2.png") no-repeat;
@@ -224,6 +231,11 @@
 }
 
 .cardsGroupCardImg.v3card1 {
+    background: center / cover url("../images/v3card1.png") no-repeat;
+    height: 220px;
+    width: 220px;
+}
+.cardsGroupCardImg.v3card1:hover {
     background: center / cover url("../images/v3card1.png") no-repeat;
     height: 220px;
     width: 220px;
